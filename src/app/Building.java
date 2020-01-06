@@ -15,7 +15,7 @@ public class Building {
         this.totalTime = totalTime;
     }
 
-    //@param Bulding object
+    //@param Building object
     // Method to compute if caller is greater than the param
     public Boolean isGreaterThan(Building bldngObj) {
         return (this.executedTime > bldngObj.executedTime
